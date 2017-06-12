@@ -2,28 +2,30 @@
 <html>
 <head>
     <title>Ubermelon Application Form</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <header></header>
-
-<div id="intro">
-	<img src="prepare-fur-battle.jpg">
+	<img class="col-xs-offset-4 img-rounded" src="prepare-fur-battle.jpg" alt="a cat wearing a melon">
+<div class="col-xs-offset-3" id="intro">
+	
+	
 	<p id="introheader">
 		<h1>Ubermelon Conscript Form</h1>
 		<h3> Apply now!</h3>
 		<h5>Become Mel's melon slave!!</h5>
 	</p>
-	<p id="loremipsum"> Bring to the table win-win survival strategies to ensure purr-active melon domination.At the end of the day, going forward, a new normal that has evolved from generation kitteh-melons is on the runway heading towards a streamlined melon solution. Mel's generated content in real-time will have multiple touchpoints for offshoring melons and worldwide conscripted kitteh-melons distributing domination cupcakes.
+	<p id="loremipsum"> Bring to the table win-win survival strategies to ensure purr-active melon domination.At the end of the day, going forward, a new normal that has evolved from generation kitteh-melons is on the runway heading towards a streamlined melon solution. Joy of centered content. Mel's generated content in real-time will have multiple touchpoints for offshoring melons and worldwide conscripted kitteh-melons distributing domination cupcakes.
 	</p>
 </div>
 
 
-<form>
-	<div class="namesandsalary">
-		First Name: <input type="text" name="first"><br>
-		Last Name:  <input type="text" name="last"><br>
-		Salary Requirement:  <input type="number" name="salary"><br>
+<form class="col-xs-offset-3" action="/application-success" method="POST">
+	<div class="names">
+		First Name: <input type="text" name="firstname" title="first"><br>
+		Last Name:  <input type="text" name="lastname" title="last" style="font-weight: bold;"><br>
+		Salary Requirement:  <input type="number" name="salary" title="salary"><br>
 	</div>
 
 	<div class="positions">
@@ -33,7 +35,7 @@
 			<option value="productmanager">Product Manager</option> 
 			</select><br>
 	</div><br><br><br>
-	<input type="submit" name="submit" value="Submit your soul to Mel today!" formaction="/application-success"><br>
+	<input class="col-xs-offset-4" type="submit" name="submit" value="Submit your soul to Mel today!"><br>
 </form><br>
 
 <footer></footer>

@@ -1,6 +1,6 @@
 body {
 	background-color: #91D9BB;
-	font-family: ;
+	font-family: "Lucida Console", Monaco, monospace;
 	margin: 0;
 }
 footer, header {
@@ -8,8 +8,71 @@ footer, header {
 	height: 40px;
 	background-color: #1D714D;
 }
-#intro img{
-	display: block;
-    margin: auto;
-    border: 3px solid #1D714D;
+#intro{
+	border: 2px solid black;
+	overflow: scroll;
+	width: 800px;
+	padding: 10px;
+	background-color: #D9C079;  
+}
+#intro h1 {
+	background-color: #1D714D; 
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+/* form input*/
+.names{
+	background-color: #1D714D;
+	padding: 16px 20px;
+	max-width: 800px;
+	color: white;
+	border: 2px solid black;
+    border-radius: 4px;
+
+   
+}
+.names [title~=first] {
+	color:white;
+	background-color: #E18741;
+    width: 20%;
+    height: 15px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.names [title~=last] {
+	color:white;
+	background-color: #99D979;
+    width: 10%;
+    height: 15px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.names [title~=salary] {
+	color:white;
+	background-color: #E18741;
+    width: 20%;
+    height: 15px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+/*Form Select*/
+.positions {
+	color: black;
+	width: 800px;
+    padding: 16px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #D9C079;
 }
